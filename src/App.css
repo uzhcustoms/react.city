@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #61dafb;
+}
+
+.info {
+  margin: 0 80px;
+  text-decoration: none;
+}
+
+.info p {
+  text-align: justify;
+}
+
+.info p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 110%;
+  line-height: 25px;
+}
+
+.info img {
+  margin-top: 30px;
+}
+
+.info P:first-letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+  color: blue;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.otherSight {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  padding: 20px;
+  width: 20%;
+}
+
+.imgs:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.form {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: auto;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.errors {
+  color: red;
+  font-size: 13px;
+}
